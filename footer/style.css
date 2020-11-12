@@ -4,11 +4,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .footer-container {
   display: grid;
   width: 100%;
-  background-color: green;
-  /* height: 500px; */
+  background-color: #efefef;
+}
+
+.footer-header,
+.footer-contact-info,
+.footer-address {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-header {
+  font-style: bold;
+  font-size: 2rem;
+}
+
+.footer-contact-link {
+  color: #ff114b;
+  font-style: bold;
+}
+
+.footer-contact-link,
+.footer-social-links {
+  text-decoration: none;
+}
+
+.footer-logo {
+  height: 90px;
+  width: 90px;
 }
